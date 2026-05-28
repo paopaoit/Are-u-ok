@@ -41,23 +41,32 @@
 <tr align="center">
     <td rowspan="4"; align="center"><a href="https://github.com/sbwml/luci-app-mosdns">mosdns</a></td>
     <td align="center"><a href="https://github.com/bcseputetto/Are-u-ok/raw/master/packages_24.10/x86_64/mosdns_5.3.4-r5_x86_64_luci_1.7.2-r1_sdk_24.10_all.run">x86_64</a></td>
-    <td align="center">(DNS分流)luci-app-mosdns 1.7.2-r1 with mosdns 5.3.4-r5</td>
-    <td align="center">2026-05-07</td>
+    <td rowspan="4"; align="center">(DNS分流)luci-app-mosdns 1.7.2-r1 with mosdns 5.3.4-r5</td>
+    <td rowspan="4"; align="center">2026-05-07</td>
 </tr>
-<tr align="center">
+<tr>
     <td align="center"><a href="https://github.com/bcseputetto/Are-u-ok/raw/master/packages_24.10/aarch64/mosdns_5.3.4-r5_aarch64_generic_luci_1.7.2-r1_sdk_24.10_all.run">aarch64_generic</a></td>
-    <td align="center">(DNS分流)luci-app-mosdns 1.7.2-r1 with mosdns 5.3.4-r5</td>
-    <td align="center">2026-05-07</td>
 </tr>
-<tr align="center">
+<tr>
     <td align="center"><a href="https://github.com/bcseputetto/Are-u-ok/raw/master/packages_24.10/aarch64/mosdns_5.3.4-r5_aarch64_a53_luci_1.7.2-r1_sdk_24.10_all.run">aarch64_a53</a></td>
-    <td align="center">(DNS分流)luci-app-mosdns 1.7.2-r1 with mosdns 5.3.4-r5</td>
-    <td align="center">2026-05-07</td>
+</tr>
+<tr>
+    <td align="center"><a href="https://github.com/bcseputetto/Are-u-ok/raw/master/packages_24.10/aarch64/mosdns_5.3.4-r5_aarch64_a72_luci_1.7.2-r1_sdk_24.10_all.run">aarch64_a72</a></td>
 </tr>
 <tr align="center">
-    <td align="center"><a href="https://github.com/bcseputetto/Are-u-ok/raw/master/packages_24.10/aarch64/mosdns_5.3.4-r5_aarch64_a72_luci_1.7.2-r1_sdk_24.10_all.run">aarch64_a72</a></td>
-    <td align="center">(DNS分流)luci-app-mosdns 1.7.2-r1 with mosdns 5.3.4-r5</td>
-    <td align="center">2026-05-07</td>
+    <td rowspan="4"; align="center"><a href="https://github.com/timsaya/luci-app-bandix">bandix</a></td>
+    <td align="center"><a href="https://github.com/bcseputetto/Are-u-ok/raw/master/packages_24.10/x86_64/bandix_0.12.9-r1_x86_64_luci_0.12.8-r1_sdk_24.10_all.run">x86_64</a></td>
+    <td rowspan="4"; align="center">(流量监控)luci-app-bandix 0.12.8-r1 with bandix 0.12.9-r1</td>
+    <td rowspan="4"; align="center">2026-05-28</td>
+</tr>
+<tr>
+    <td align="center"><a href="https://github.com/bcseputetto/Are-u-ok/raw/master/packages_24.10/aarch64/bandix_0.12.9-r1_aarch64_generic_luci_0.12.8-r1_sdk_24.10_all.run">aarch64_generic</a></td>
+</tr>
+<tr>
+    <td align="center"><a href="https://github.com/bcseputetto/Are-u-ok/raw/master/packages_24.10/aarch64/bandix_0.12.9-r1_aarch64_a53_luci_0.12.8-r1_sdk_24.10_all.run">aarch64_a53</a></td>
+</tr>
+<tr>
+    <td align="center"><a href="https://github.com/bcseputetto/Are-u-ok/raw/master/packages_24.10/aarch64/bandix_0.12.9-r1_aarch64_a72_luci_0.12.8-r1_sdk_24.10_all.run">aarch64_a72</a></td>
 </tr>
 <tr align="center">
     <td rowspan="1"; align="center"><a href="https://github.com/kiddin9/kwrt-packages">openvpn_server</a></td>
@@ -85,9 +94,9 @@ sh 包名.run
 ```
 例
 ```console
-sh PassWall_4.71-2_x86_64_all_sdk_22.03.5.run
+sh PassWall_26.5.20_x86_64_all_sdk_24.10.run
 ```
 如果文件不在当前路径记得填写路径，下例
 ```console
-sh /tmp/upload/PassWall_4.71-2_x86_64_all_sdk_22.03.5.run
+sh /tmp/upload/PassWall_26.5.20_x86_64_all_sdk_24.10.run
 ```
